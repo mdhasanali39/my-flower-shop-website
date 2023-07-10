@@ -1,0 +1,153 @@
+/* google font here  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* Usability Start*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.specific-span{
+    color: #e55272;
+}
+.title-section {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 24px;
+}
+
+.description-section {
+    font-size: 16.5px;
+    color: #27272799;
+    line-height: 30px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #e55473;
+    border-radius: 8px;
+    padding: 15px 30px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    transition: background-color .3s linear, color .3s linear;
+}
+
+/* button animation on hover */
+.btn-primary:hover {
+    color: #e55473;
+    background-color: #ffffff;
+    outline: 1px solid #e55473;
+}
+
+/* Usability End*/
+
+/* Started main styling from here  */
+
+/* header section styling start  */
+.header {
+    height: 100vh;
+    background: #e554731a;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px 0 158px;
+    margin-bottom: 100px;
+}
+
+.banner-content-container .banner-title {
+    color: #272727;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.banner-content-container .banner-description {
+    width: 90%;
+    margin: 20px 0;
+    text-align: left;
+}
+
+/* banner img  */
+.banner-img {
+    width: 470px;
+    align-self: self-end;
+}
+
+/* our featured flowers section styling start  */
+.our-featured-flowers {
+    max-width: 1040px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.featured-flowers-description {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.featured-flowers-boxes {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 60px;
+}
+
+.flower-box .box {
+    width: 314px;
+    height: 345px;
+    position: relative;
+    background-color: #fff;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.flower-box .box img {
+    position: absolute;
+    width: 180px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.flower-box-title {
+    color: #272727;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* our opportunities section styling start  */
+.our-opportunities-section {
+    max-width: 1040px;
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: #e554731a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.opportunity img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.opportunity h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #272727cc;
+}
