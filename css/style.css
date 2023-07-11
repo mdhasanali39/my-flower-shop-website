@@ -25,6 +25,8 @@
     color: #27272799;
     line-height: 30px;
     text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .btn-primary {
@@ -86,12 +88,6 @@
     margin: 0 auto;
     margin-bottom: 100px;
 }
-
-.featured-flowers-description {
-    width: 50%;
-    margin: 0 auto;
-}
-
 .featured-flowers-boxes {
     display: flex;
     justify-content: space-between;
@@ -125,6 +121,36 @@
     font-weight: 700;
     text-decoration: underline;
     cursor: pointer;
+}
+/* popular flowers section styling start  */
+.popular-flowers-section{
+    margin-bottom: 100px;
+}
+.popular-flowers-cards{
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.popular-flowers-cards .popular-card{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 15px 10px 15px rgba(167, 33, 98, 0.15);
+}
+.popular-flowers-cards .popular-card img{
+    width: 100%;
+}
+.popular-buy-btn{
+    position: absolute;
+    top: 50%;
+    left: -160px;
+    padding: 14px 24px;
+    transform: translateY(-50%);
+    transition: all .3s linear;
+}
+.popular-flowers-cards .popular-card:hover .popular-buy-btn{
+    left: 15px;
 }
 
 /* our opportunities section styling start  */
@@ -182,10 +208,6 @@
 .instagram-section{
     /* max-width: 1040px; */
     margin-bottom: 70px;
-}
-.instagram-section-description{
-    width: 50%;
-    margin: 0 auto;
 }
 .instagram-flower-cards{
     display: flex;
@@ -247,8 +269,6 @@
     font-size: 48px;
 }
 .footer-description{
-    width: 50%;
-    margin: 0 auto;
     color: #ffffffe6;
 }
 .copyright-text{
