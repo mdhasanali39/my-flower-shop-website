@@ -20,7 +20,6 @@
     color: #272727;
     margin-bottom: 24px;
 }
-
 .description-section {
     font-size: 16.5px;
     color: #27272799;
@@ -75,7 +74,6 @@
     margin: 20px 0;
     text-align: left;
 }
-
 /* banner img  */
 .banner-img {
     width: 470px;
@@ -142,13 +140,11 @@
     text-align: center;
     border-radius: 8px;
 }
-
 .opportunity img {
     width: 50px;
     height: 50px;
     margin-bottom: 15px;
 }
-
 .opportunity h5 {
     font-size: 18px;
     font-weight: 600;
@@ -203,3 +199,41 @@
 .instagram-flower-cards .card img{
     width: 100%;
 }
+/* latest deals section styling start  */
+.latest-deals-section{
+    max-width: 1040px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../flower-asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 100px;
+}
+.latest-deals-title{
+    margin-bottom: 16px;
+}
+.latest-deals-content{
+    width: 100%;
+}
+.subscribe-box {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.subscribe-box input[type="email"]{
+    width: 75%;
+    padding: 15px 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
