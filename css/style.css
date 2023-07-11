@@ -36,6 +36,7 @@
     font-size: 18px;
     font-weight: 700;
     border: none;
+    cursor: pointer;
     transition: background-color .3s linear, color .3s linear;
 }
 
@@ -180,4 +181,25 @@
     width: 295px;
     /* padding-right: 82px; */
     margin-left: -80px;
+}
+/* instagram section styling start  */
+.instagram-section{
+    /* max-width: 1040px; */
+    margin-bottom: 100px;
+}
+.instagram-section-description{
+    width: 50%;
+    margin: 0 auto;
+}
+.instagram-flower-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1040px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.instagram-flower-cards .card img{
+    width: 100%;
 }
