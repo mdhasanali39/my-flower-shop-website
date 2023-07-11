@@ -88,19 +88,18 @@
 }
 
 .featured-flowers-description {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
 }
 
 .featured-flowers-boxes {
     display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
+    justify-content: space-between;
     margin-top: 60px;
 }
 
 .flower-box .box {
-    width: 314px;
+    width: 325px;
     height: 345px;
     position: relative;
     background-color: #fff;
@@ -108,7 +107,6 @@
     border-top-right-radius: 300px;
     background-color: rgba(167, 33, 98, 0.15);
 }
-
 .flower-box .box img {
     position: absolute;
     width: 180px;
@@ -116,7 +114,9 @@
     left: 50%;
     transform: translateX(-50%);
 }
-
+.flower-box .box .green-flower-img{
+    width: 238px;
+}
 .flower-box-title {
     color: #272727;
     text-align: center;
@@ -181,7 +181,7 @@
 /* instagram section styling start  */
 .instagram-section{
     /* max-width: 1040px; */
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .instagram-section-description{
     width: 50%;
@@ -211,10 +211,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .latest-deals-title{
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 .latest-deals-content{
     width: 100%;
@@ -225,7 +225,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .subscribe-box input[type="email"]{
     width: 75%;
@@ -236,4 +236,23 @@
     border: none;
     outline: none;
 }
-
+/* footer section styling start  */
+.footer{
+    background-color: #111010;
+    padding: 110px 0;
+}
+.footer-logo-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 48px;
+}
+.footer-description{
+    width: 50%;
+    margin: 0 auto;
+    color: #ffffffe6;
+}
+.copyright-text{
+    color: #ffffff66;;
+    text-align: center;
+    margin-top: 25px;
+}
